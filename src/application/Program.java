@@ -2,14 +2,18 @@ package application;
 
 import javax.swing.text.Position;
 
+import boardgame_tabuleiro.Board_Tabuleiro;
 import boardgame_tabuleiro.Position_Posicao;
 
 public class Program {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Position_Posicao pos = new Position_Posicao(3, 5);
-		System.out.println(pos);
+		
+		Board_Tabuleiro tabuleiro = new Board_Tabuleiro(8, 8);
+		
+		
+		
+		
 	}
 
 }
